@@ -12,7 +12,7 @@ Make a list of all the taxa, put in a file called taxa_list.txt. Use the Library
 
 2. Using the files in the "longest" folder, sort out the UCEs that have single and multiple probes. Must have taxa_list.txt in the same folder. Change names for singles from "UCE" to uce-[real UCE number]. Combine single probe UCEs into fasta files by locus(UCE), goes into "singleuces" folder. Print out fasta file of all the probes for multiple probe UCEs, named "multipleuces_conMULT_PROBE" output goes into "multipleuces" folder. SCRIPT: finddupsrename.pl
 
-3.Run R script to get consensus sequence for UCE loci that have multiple probes. SCRIPT: multiprobeAlign.R
+3. Run R script to get consensus sequence for UCE loci that have multiple probes. SCRIPT: multiprobeAlign.R
 
 4. Combine the multiple probe UCEs into fasta files by locus (UCE). Must have taxa_list.txt in the same folder. SCRIPT: combinemults.pl
 
